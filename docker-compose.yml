@@ -1,0 +1,7 @@
+version: '2'
+services:
+  rabbitmq:
+    image: registry.cn-hangzhou.aliyuncs.com/c3t3m3/docker-amqp:aliyun
+    ports:
+      - "5672:5672"
+      - "15672:15672"
